@@ -14,7 +14,7 @@ st.title("⚡ LineGuard AI - Advanced Fault Detection")
 @st.cache_resource()
 def load_model():
     model = CatBoostClassifier()
-    model.load_model("C:\\2k25\\LineGuard AI\\models\\catboost_fault_detection_model_single_phase (1).cbm")
+    model.load_model("C:\\2k25\\LGA2.0\\models\\catboost_fault_detection_model_single_phase (1).cbm")
     return model
 
 model = load_model()
